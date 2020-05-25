@@ -22,7 +22,7 @@ A CP210x from the factory require *either*:
 - or to reprogram the chip to utilize the driver distributed wih windows.
 
 ### Reprogramming procedure
-To make the box plug-and-play with windows without driver installation, follow this [guide](https://www.silabs.com/documents/public/application-notes/AN721.pdf) and reprogram the chip´s VID to *0x10C4* and PID to *0xEA63*.
+To make the box plug-and-play with windows without driver installation, follow this [guide](https://www.silabs.com/documents/public/application-notes/AN721.pdf) (or perhaps quicker using [CP210xSetIDs.exe](https://www.silabs.com/content/usergenerated/asi/cloud/attachments/siliconlabs/en/community/groups/interface/knowledge-base/jcr:content/content/primary/blog/cp210x_legacy_progra-zARf/CP210x_LegacyUtilities.zip) from [legacy utilitities](https://www.silabs.com/community/interface/knowledge-base.entry.html/2016/11/04/cp210x_legacy_progra-zARf)) and reprogram the chip´s VID to *0x10C4* and PID to *0xEA63*.
 
 # How to run
 ## Examples:
