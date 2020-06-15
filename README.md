@@ -17,12 +17,12 @@ This tool is for windows. Linux has a [kernel driver](https://github.com/torvald
 Build using CMake or open with Visual Studio 2019 which support CMake out of the box.
 
 ## Preparation 
-A CP210x from the factory require *either*:
-- Installation of a [windows driver](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)
-- or to reprogram the chip to utilize the driver distributed wih windows.
+For windows to recognice a CP210x delivered from the factory you need to *either*:
+- Install a [windows driver](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip)
+- Or to reprogram the board's PID to utilize the driver distributed with windows. (see below)
 
 ### Reprogramming procedure
-To make the box plug-and-play with windows without driver installation, follow this [guide](https://www.silabs.com/documents/public/application-notes/AN721.pdf) (or perhaps quicker using [CP210xSetIDs.exe](https://www.silabs.com/content/usergenerated/asi/cloud/attachments/siliconlabs/en/community/groups/interface/knowledge-base/jcr:content/content/primary/blog/cp210x_legacy_progra-zARf/CP210x_LegacyUtilities.zip) from [legacy utilitities](https://www.silabs.com/community/interface/knowledge-base.entry.html/2016/11/04/cp210x_legacy_progra-zARf)) and reprogram the chip´s VID to *0x10C4* and PID to *0xEA63*.
+To make the box plug-and-play with Windows without driver installation, use [CP210xSetIDs.exe](https://www.silabs.com/content/usergenerated/asi/cloud/attachments/siliconlabs/en/community/groups/interface/knowledge-base/jcr:content/content/primary/blog/cp210x_legacy_progra-zARf/CP210x_LegacyUtilities.zip) from [legacy utilitities](https://www.silabs.com/community/interface/knowledge-base.entry.html/2016/11/04/cp210x_legacy_progra-zARf) to reprogram the chip´s VID to *0x10C4* and PID to *0xEA63*. This will make Windows find and install the correct driver automatically. Note that the [windows driver](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) is needed to run the reprogramming tool.
 
 # How to run
 ## Examples:
