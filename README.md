@@ -51,7 +51,7 @@ specify it explicitly.
 ```
 
 # Box
-The relay card enclosure can be 3D-printed using the pre-exported [amf file](/cad/relay_card_box.amf) or [opened](/cad/relay_card_box.FCStd) and modified using [FreeCAD](https://www.freecadweb.org/).
+The relay card enclosure can be 3D-printed using the pre-exported [amf box file](/cad/relay_card_box.amf) and [lid file](/cad/relay_card_lid.amf) or [opened](/cad/relay_card_box.FCStd) and modified using [FreeCAD](https://www.freecadweb.org/).
 
 ![relay box](/cad/relay_card_box.png)
 
