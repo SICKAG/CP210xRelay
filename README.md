@@ -2,7 +2,7 @@
 
 This project contain windows command line software and cad drawings for a relay box based on a CP210x USB chip. Originally used for test automation. 
 
-![image of assembled relay box](/assembled_box.png)
+![image of assembled relay box with lid](/assembled.png)
 
 # Part list
 - [Conrad Components 393905 Relay card Component 5 V DC](https://www.conrad.com/p/conrad-components-393905-relay-card-component-5-v-dc-393905)
@@ -56,5 +56,7 @@ The relay card enclosure can be 3D-printed using the pre-exported [amf box file]
 ![relay box](/cad/relay_card_box.png)
 
 ## Assembly
-Put relay card into enclosure. Put some force where the mounting holes are and press it down and it will stay in place.
+Put relay card into enclosure. Put some force where the mounting holes are and press it down and it will stay in place. The lid will snap into place.
+
+![image of assembled relay box](/assembled_box.png)
 
