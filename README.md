@@ -5,7 +5,7 @@ This project contain windows command line software and cad drawings for a relay 
 ![image of assembled relay box with lid](/assembled.png)
 
 # Part list
-- [Conrad Components 393905 Relay card Component 5 V DC](https://www.conrad.com/p/tru-components-relay-card-component-5-v-dc-2256179)
+- [Tru Components 2256179 Relay card Component 5 V DC](https://www.conrad.com/p/tru-components-relay-card-component-5-v-dc-2256179)
 - [Low power extension cable](https://www.conrad.com/p/tru-components-low-power-extension-cable-low-power-plug-low-power-socket-55-mm-21-mm-55-mm-21-mm-1-pcs-1582277)
 - [USB 2.0 Cable](https://www.conrad.com/p/goobay-usb-20-cable-1x-usb-20-connector-a-1x-usb-20-connector-b-180-m-grey-973569)
 - [3D-printed enclosure](#box)
